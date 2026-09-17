@@ -72,7 +72,7 @@ const MovieModal = ({ movie, onClose }) => {
             className="close-button"
             onClick={onClose}
           >
-            Close
+            close 
           </button>
         </div>
       </div>
