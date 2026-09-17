@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
 import MovieCard from "../components/MovieCard";
-import MovieModal from "../components/MovieModal";
+
 import Loading from "../components/Loading";
 import {
   getAllShows,
   
 } from "../services/tvmazeApi";
+import MovieModal from "../components/movieModal";
 
 const Movies = () => {
   const [movies, setMovies] = useState([]);
