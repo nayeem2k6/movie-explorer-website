@@ -1,3 +1,4 @@
+
 const Footer = () => {
   return (
     <footer className="footer">
@@ -13,12 +14,31 @@ const Footer = () => {
         </p>
 
         <div className="footer-links">
+          {/* GitHub */}
           <a
-            href="https://github.com/"
+            href="https://github.com/nayeem2k6"
             target="_blank"
             rel="noreferrer"
           >
             GitHub
+          </a>
+
+          {/* LinkedIn */}
+          <a
+            href="https://www.linkedin.com/in/nayeem2k6/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LinkedIn
+          </a>
+
+          {/* Facebook */}
+          <a
+            href="https://www.facebook.com/share/19HXSZQav5/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Facebook
           </a>
         </div>
       </div>
