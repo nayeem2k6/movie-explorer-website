@@ -4,6 +4,7 @@ import MovieCard from "../components/MovieCard";
 import Loading from "../components/Loading";
 import {
   getAllShows,
+  searchShows,
   
 } from "../services/tvmazeApi";
 import MovieModal from "../components/movieModal";

@@ -9,8 +9,8 @@ export const getAllShows = async () => {
 };
 
 
-export const serchShows = async (query) => {
-const response = await fetch(`${BASE_URL}/serch/shows?q=${encodeURIComponent(query)}`);
+export const searchShows = async (query) => {
+const response = await fetch(`${BASE_URL}/search/shows?q=${encodeURIComponent(query)}`);
 
 if (!response.ok){
     throw new Error("Faild to serch shows");
