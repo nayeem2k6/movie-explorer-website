@@ -1,3 +1,4 @@
+import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -19,8 +20,9 @@ const Footer = () => {
             href="https://github.com/nayeem2k6"
             target="_blank"
             rel="noreferrer"
+            aria-label="GitHub"
           >
-            GitHub
+            <FaGithub />
           </a>
 
           {/* LinkedIn */}
@@ -28,8 +30,9 @@ const Footer = () => {
             href="https://www.linkedin.com/in/nayeem2k6/"
             target="_blank"
             rel="noreferrer"
+            aria-label="LinkedIn"
           >
-            LinkedIn
+            <FaLinkedin />
           </a>
 
           {/* Facebook */}
@@ -37,8 +40,9 @@ const Footer = () => {
             href="https://www.facebook.com/share/19HXSZQav5/"
             target="_blank"
             rel="noreferrer"
+            aria-label="Facebook"
           >
-            Facebook
+            <FaFacebook />
           </a>
         </div>
       </div>
